@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Еремина О.А.">
+  <title>Презентация по лабораторной работе №4</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reset.css">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="reveal.js/css/theme/beige.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+  
+  
+  
+  
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Презентация по лабораторной работе №4</h1>
+  <p class="author">Еремина О.А.</p>
+</section>
+
+<section class="slide level1">
+
+<h2 id="цель-работы">Цель работы</h2>
+<p>Целью данной лабораторной работы является получение навыков правильной работы с репозиториями git.</p>
+<h2 id="задание">Задание</h2>
+<ul>
+<li>Выполнить работу для тестового репозитория.</li>
+<li>Преобразовать рабочий репозиторий в репозиторий с git-flow и conventional commits.</li>
+</ul>
+<h2 id="выполнение-лабораторной-работы">Выполнение лабораторной работы</h2>
+</section>
+<section id="установка-программного-обеспечения" class="slide level1">
+<h1>Установка программного обеспечения</h1>
+</section>
+<section id="установка-git-flow" class="slide level1">
+<h1>Установка git-flow</h1>
+<p>Так как у меня ubuntu, то я устанавливаю ПО с помощью другой команды. (рис.1)</p>
+<figure>
+<img data-src="image/1.png" id="fig:001" style="width:70.0%" alt="" /><figcaption>Установка git-flow</figcaption>
+</figure>
+</section>
+<section id="установка-node.js" class="slide level1">
+<h1>Установка Node.js</h1>
+<p>То же самое делаю и для node.js (рис.2)</p>
+<figure>
+<img data-src="image/2.png" id="fig:001" style="width:70.0%" alt="" /><figcaption>Установка node.js</figcaption>
+</figure>
+</section>
+<section id="настройка-node.js" class="slide level1">
+<h1>Настройка Node.js</h1>
+<p>Для работы с Node.js добавляю каталог с исполняемыми файлами, устанавливаемыемыми yarn, в переменную PATH (рис. 3)</p>
+<figure>
+<img data-src="image/3.png" id="fig:001" style="width:70.0%" alt="" /><figcaption>Настройка node.js</figcaption>
+</figure>
+</section>
+<section id="общепринятые-коммиты" class="slide level1">
+<h1>Общепринятые коммиты</h1>
+</section>
+<section id="commitizen" class="slide level1">
+<h1>commitizen</h1>
+<p>Данная программа используется для помощи в форматировании коммитов. При этом устанавливается скрипт git-cz, который я буду использовать для коммитов. (рис.4)</p>
+<figure>
+<img data-src="image/4.png" id="fig:001" style="width:70.0%" alt="" /><figcaption>Commitizen</figcaption>
+</figure>
+</section>
+<section id="standard-changelog" class="slide level1">
+<h1>standard-changelog</h1>
+<p>Данная программа используется для помощи в создании логов. (рис.5)</p>
+<figure>
+<img data-src="image/5.png" id="fig:001" style="width:70.0%" alt="" /><figcaption>standard-changelog</figcaption>
+</figure>
+</section>
+<section id="практический-сценарий-использования-git" class="slide level1">
+<h1>Практический сценарий использования git</h1>
+<p>Создаю репозиторий с именем git-extended. (рис.6)</p>
+<figure>
+<img data-src="image/6.png" id="fig:001" style="width:70.0%" alt="" /><figcaption>Создание репозитория</figcaption>
+</figure>
+</section>
+<section id="переходу-в-папку-work-и-клонирую-репозиторий-в-папку-рис.7" class="slide level1">
+<h1>Переходу в папку work и клонирую репозиторий в папку (рис.7)</h1>
+<figure>
+<img data-src="image/7.png" id="fig:001" style="width:70.0%" alt="" /><figcaption>Клонирование репозитория</figcaption>
+</figure>
+</section>
+<section id="делаю-первый-коммит-и-выкладываю-на-github.-рис.8" class="slide level1">
+<h1>Делаю первый коммит и выкладываю на github. (рис.8)</h1>
+<figure>
+<img data-src="image/8.png" id="fig:001" style="width:70.0%" alt="" /><figcaption>Создание первого коммита</figcaption>
+</figure>
+</section>
+<section id="конфигурация-для-пакетов-node.js-с-помощью-команды-pnpm-init-рис.9" class="slide level1">
+<h1>Конфигурация для пакетов Node.js с помощью команды pnpm init (рис.9)</h1>
+<figure>
+<img data-src="image/9.png" id="fig:001" style="width:70.0%" alt="" /><figcaption>Конфигурация для пакетов Node.js</figcaption>
+</figure>
+</section>
+<section id="заполняю-несколько-параметров-пакеты-рис.10" class="slide level1">
+<h1>Заполняю несколько параметров пакеты (рис.10)</h1>
+<figure>
+<img data-src="image/10.png" id="fig:001" style="width:70.0%" alt="" /><figcaption>Параметры пакета</figcaption>
+</figure>
+</section>
+<section id="добавляю-новые-файлы-выполняю-коммит-и-отправляю-на-github-рис.11" class="slide level1">
+<h1>Добавляю новые файлы, выполняю коммит и отправляю на github (рис.11)</h1>
+<figure>
+<img data-src="image/11.png" id="fig:001" style="width:70.0%" alt="" /><figcaption>Работа с git</figcaption>
+</figure>
+</section>
+<section id="инициализирую-git-flow-рис.12" class="slide level1">
+<h1>Инициализирую git-flow (рис.12)</h1>
+<figure>
+<img data-src="image/12.png" id="fig:001" style="width:70.0%" alt="" /><figcaption>Инициализация git-flow</figcaption>
+</figure>
+</section>
+<section id="проверяю-что-нахожусь-на-ветке-develop-и-загружаю-весь-репозиторий-в-хранилище-рис.13" class="slide level1">
+<h1>Проверяю, что нахожусь на ветке develop и загружаю весь репозиторий в хранилище (рис.13)</h1>
+<figure>
+<img data-src="image/13.png" id="fig:001" style="width:70.0%" alt="" /><figcaption>Загружка в хранилище</figcaption>
+</figure>
+</section>
+<section id="установливаю-внешнюю-ветку-как-вышестоящую-для-этой-ветки-рис.14" class="slide level1">
+<h1>Установливаю внешнюю ветку как вышестоящую для этой ветки (рис.14)</h1>
+<figure>
+<img data-src="image/14.png" id="fig:001" style="width:70.0%" alt="" /><figcaption>Установка внешней ветки</figcaption>
+</figure>
+<h2 id="выводы">Выводы</h2>
+<p>При выполнении данной лабораторной работы я получила практические навыки правильной работы с репозиториями github</p>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
